@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+    color: #e74c3c;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* ------------------ Search Field Style ------------------- */
+
+.input-form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.input-field{
+    height: 50px;
+}
+
+.input-field input{
+    height: 100%;
+    background: transparent;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 17px;
+    color: #000;
+}
+
+
+.input-style{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+}
+
+.input-style input{
+    flex-grow: 1;
+}
+
+.input-field.input-style{
+    min-width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field.input-style{
+    width: 50px;
+    height: 50px;
+    fill: #777;
+    padding: 0px 10px;
+}
+
+.input-field.button-style {
+    min-width: 130px;
+}
+
+
+.btn-search {
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 17px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    background: #e74c3c;
+    font-weight: 300;
+}
+
+.input-field input:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+
+/* ------------------ Food Ingredients style ------------------- */
+
+ul li{
+    padding: 5px 0px;
+}
+
+
+/* ------------------ Warning Message Style ------------------- */
+
+#warning {
+    display: none;
+}
+
+
+/* ------------------ Footer Style ------------------- */
+
+footer {
+    padding: 50px 30px;
+    text-align: center;
+}
+
