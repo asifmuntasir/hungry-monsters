@@ -1,5 +1,5 @@
 # Title-Info
-> JavaScript API project called "Hungry-Monster"
+> JavaScript API project called "Hungry-Monster". It was designed and developmented by doing JavaScript DOM Manipulation. I've gained many trick & tips from this project.
 
 ## Bulit With
 - HTML
@@ -19,7 +19,7 @@ git clone https://github.com/asifmuntasir/hungry-monsters.git using your termina
 
 ## Author
 
-👤 **Tufahel**
+👤 **Asif Muntasir**
 
 - GitHub: [@Asif_Muntasir](https://github.com/asifmuntasir)
 - LinkedIn: [Asif_Muntasir](https://www.linkedin.com/in/asif-muntasir-shuaib/)
